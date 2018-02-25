@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Menu</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: auto;
+  text-align: center;
+}
+
+p {
+  border: 3px solid black;
+  margin-top: 30px;
+  background-color: #A9A9A9;
+  float: left;
+  text-align: center;
+    
+}
+/********** 992 px и выше **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 30%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  #p2 {
+    width: 30%;
+    height: 200px;
+    margin-right: 2%;
+  }
+  #p3 {
+    width: 30%;
+    height: 200px;
+    margin-right: 2%;
+  }
+}
+/********** браузер между 768px и 991 **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 40%;
+    height: 200px;
+    margin-right: 6%;
+    margin-left: 6%
+  }
+  #p2 {
+    width: 40%;
+    height: 200px;
+    margin-right: 6%;
+  }
+  #p3 {
+    width: 86%;
+    height: 200px;
+    margin-right: 6%;
+    margin-left: 6%
+  }
+}
+/********** меньше 767px **********/
+@media(max-width: 767px) {
+  #p1 {
+    width: 88%;
+    height: 200px;
+    margin-right: 6%;
+    margin-left: 6%
+  }
+  #p2 {
+    width: 88%;
+    height: 200px;
+    margin-right: 6%;
+    margin-left: 6%
+  }
+  #p3 {
+    width: 88%;
+    height: 200px;
+    margin-right: 6%;
+    margin-left: 6%
+  }
+}
+#box {
+  background-color: blue;
+  width: 30px;
+   height: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Our Menu </h1>
+
+<div>
+<div>	
+<p id="p1"> Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+</p>
+<p id="p2" >Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p id="p3">Lorem ipsum dolor sit amlet,consectetur adipicing elit,sed do eismod tempor incididunt ut labore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</div>
+</body>
+</html>
